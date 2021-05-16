@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edward Habich an Jacob Burckhardt</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher></publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Staatsarchiv Basel</institution>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+            <correspDesc ref="https://burckhardtsource.org/letter/656?metadata">
+               <correspAction type="sent">
+                  <persName>Edward Habich</persName>
+                  <address>
+                     <settlement><placeName ref="https://www.wikidata.org/wiki/Q2865">Cassel</placeName></settlement>
+                     <country>Germany</country>
+                  </address>
+                  <date when="1884-06-04">4 Juni 1884</date>
+               </correspAction>
+               <correspAction type="received">
+                  <persName>Jacob Burckhardt</persName>
+                  <address>
+                     <settlement><placeName ref="https://www.wikidata.org/wiki/Q78"></placeName>Basel</settlement>
+                     <country>Switzerland</country>
+                  </address>
+               </correspAction>
+            </correspDesc>
+           <textClass>
+             <keywords>
+                <term>art criticism</term>
+                <term>artwork</term>
+                <term>visit</term>
+             </keywords>
+           </textClass>
+         </profileDesc>
+  </teiHeader>
+  <text>
+     <body> 
+        <dateline rend="right"> <settlement ref="https://www.wikidata.org/wiki/Q2865">Cassel</settlement> <date when="1884-06-04">4 Juni 1884</date></dateline>
+        <lb/><opener><salute>Verehrter Herr <roleName>Professor</roleName></salute></opener>
+         <p>
+            Sie haben mir durch Ihren Brief vom
+            <date when="1884-05-11">11 Mai</date> eine große Freude gemacht, welche noch eine
+            hübsche Zuthat zu dem Vergnügen ist, das mir in <placeName ref="https://www.wikidata.org/wiki/Q7">Basel</placeName>
+            in Ihrer Gesellschaft zu Theil wurde. – 
+            <persName ref="https://www.wikidata.org/wiki/Q19222926">Eisenmann</persName> ist voller Dankbarkeit mit mir, dass
+            Sie für unsern lieben <persName ref="https://www.wikidata.org/wiki/Q154338">Grünewald</persName> eine so kräftige Lanze
+            einlegen, für <persName ref="https://www.wikidata.org/wiki/Q154338">Grünewald</persName>, dem viele Kunsthistoriker
+            eigentlich nur ein historisches Interesse darbringen, weil
+            sie nicht die derbe, innige, überwältigende Natur
+            dieses Mannes begreifen u doch Kritiker über sein
+            Schaffen sein wollen – Man muss vor Allem den Geist der großen
+            Meister durch ihre Werke auf sich einwirken lassen
+            und deren Individualität begreifen! Für das Heer
+            der Alles benagenden Kunstkäfer (wie sie <persName ref="https://www.wikidata.org/wiki/Q923703">Morelli</persName>
+            nennt) haben die Maler aber eigentlich keine Bilder
+            gemalt! – Gerade in den Formen u Farben steckt der
+            Geist der Meister u. jene müssen studirt und
+            in dem Sinne des Künstlers gefühlt werden – Wir sprachen in 
+            <placeName ref="https://www.wikidata.org/wiki/Q78">Basel</placeName> über den neu erworbenen 
+            <persName ref="https://www.wikidata.org/wiki/Q5827">Perugino</persName> des Louvre, das Bild, welches früher unter
+            dem Namen <persName ref="https://www.wikidata.org/wiki/Q5597">Raphaels</persName> in dem Besitze des <persName ref="https://www.wikidata.org/wiki/Q63108462">M. Moore</persName>
+            in <placeName ref="https://www.wikidata.org/wiki/Q220">Rom</placeName> war. Die Photographie, welche ich Ihnen
+            heute zusende mit der Bitte um freundliche Annahme,
+            ist sehr gut gelungen – <hi rend="underline">Für</hi> <persName ref="https://www.wikidata.org/wiki/Q5827">Perugino</persName> u. 
+            <hi rend="underline">gegen</hi> <persName ref="https://www.wikidata.org/wiki/Q5597">Raphael</persName>
+            sprechen schon die langen, dürren Beine, die Füße mit
+            ausgehöhlter Sohle und krallenartigen Hände und außerdem
+            die Typen welche in der Gesammtheit und jedem einzelnen
+            Theile zum Ausdruck gebracht sind – Das Bild ist
+            sehr schön! – Gern möchte ich mit Ihnen in dem lieben <placeName ref="https://www.wikidata.org/wiki/Q78">Basel</placeName>
+            manchmal ein Stündchen zusam̄en sein: diese Freude
+            wird aber bald meinem Freunde <persName ref="https://www.wikidata.org/wiki/Q19222926">Eisenmann</persName>
+            zu Theil, welcher auf seiner Reise nach <placeName ref="https://www.wikidata.org/wiki/Q172579">Italien</placeName>
+            gegen den <date notBefore="1884-06-16" notAfter="1884-06-18">16/18 Juni</date> vorh[-]t Ihnen einen
+            kurzen Besuch zu machen –
+            Seinen Grüßen an Sie füge ich die
+            meinigen bei u die Bitte, mir Ihr Wohlwollen
+            zu bewahren –
+         </p>
+            <closer><salute rend="right">Mit besonderer Hochachtung
+               Ihr ergebener</salute>
+               <signed><persName ref="https://www.wikidata.org/wiki/Q5343739">Edward Habich</persName></signed></closer>             
+        <postscript rend="left"> 
+           <p>Ich schließe in der Rolle noch ein: 1 Photog meines <persName ref="https://www.wikidata.org/wiki/Q1374872">Liberale da Verona</persName>
+              1’’ meiner Handzeichnung des <persName ref="https://www.wikidata.org/wiki/Q5594">Antonello da Messina</persName>
+           </p>
+        </postscript>
+      </body> 
+  </text>
+</TEI>

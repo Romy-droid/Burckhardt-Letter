@@ -1,0 +1,52 @@
+body {
+    background-color: LightGray;
+}
+
+tei-body {
+    width: 600px;
+    margin: 0 auto;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+	margin-top: .5em;
+	display: block;
+	text-align: justify;
+}
+
+
+tei-div {
+  display: block;
+  margin-top: 20px;
+}
+
+tei-p {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+tei-opener{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+tei-dateline[rend=right] {
+	float: right;
+}
+
+tei-date {
+	font-style: italic;
+}
+
+tei-closer {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+tei-hi[rend=underline] {
+	text-decoration: underline;
+}
+
+tei-postscript[rend=left] {
+	float: left;
+}
